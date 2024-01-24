@@ -1,0 +1,17 @@
+<form id="login-form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
+		<div class="register-span">
+			<h6>Username*:</h6>
+			<input type="text" placeholder="Username" name="username">
+		</div>
+		<div class="register-span">
+			<h6>Password*:</h6>
+			<input type="text" placeholder="Password" name="pass">
+		</div>
+		<div class="register-span">
+			<input type="submit" name="submit" value="Login">
+		</div>
+	
+	</form>
+
+
+
